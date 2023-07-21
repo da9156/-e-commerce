@@ -37,8 +37,9 @@
 }
 
 .navbar-nav {
+  display: inline-block;
   border: 1px black solid;
-  width: 35%;
+  width: 46%;
 }
 
 .navbar-nav ul {
@@ -54,19 +55,6 @@
 .navbar-nav li a,.dropdown span {
   border: 1px black solid;
   margin-right: 90px;
-  text-decoration: none;
-  color: black;
-}
-
-.socialMedia {
-  border: 1px black solid;
-  margin-right: 3%;
-  display: flex;
-  align-items: center;
-}
-
-.socialMedia a {
-  margin: 0 10px;
   text-decoration: none;
   color: black;
 }
@@ -89,9 +77,26 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #a09999
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.socialMedia {
+  border: 1px black solid;
+  margin-right: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.socialMedia a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.login{
+    margin-right: 2%;
 }
